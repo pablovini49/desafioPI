@@ -64,7 +64,7 @@ body {
   align-items: center;
 }
 
-.tamanho-conteudo { 
+.tamanho-conteudo {
   height: fit-content !important;
 }
 
@@ -87,7 +87,7 @@ body {
   display: flex;
 }
 
-.social .container{
+.social .container {
   justify-content: center;
 }
 
@@ -138,7 +138,7 @@ body {
   width: 400px;
   display: flex;
   flex-direction: column;
-  color: rgba(25, 127, 219) ;
+  color: rgba(25, 127, 219);
   border: solid rgb(25, 127, 219) 4px;
   align-items: center;
   border-radius: 4px;
@@ -167,7 +167,7 @@ button {
 
 /* FORMULARIO */
 
-.alerta_erro{
+.alerta_erro {
   display: flex;
   justify-content: flex-end;
 }
@@ -184,7 +184,7 @@ button {
   margin-right: 10%;
 }
 
-.card_erro #mensagem_erro{
+.card_erro #mensagem_erro {
   font-weight: 500;
   font-size: 20px;
 }
@@ -256,7 +256,8 @@ input {
   justify-content: space-evenly;
   align-items: center;
   border-right: 3px solid #32b9cd;
-  background-color: rgb(25, 127, 219);;
+    background-color: rgb(25, 127, 219);
+    ;
   /* border: 3px solid pink; */
 }
 
@@ -381,9 +382,23 @@ input {
 }
 
 @keyframes bell {
-  0%   {transform: rotate(25deg)}
-  25%  {transform: rotate(-25deg)}
-  50%  {transform: rotate(25deg)}
-  75%  {transform: rotate(-25deg)}
-  100% {transform: rotate(25deg)}
+  0% {
+    transform: rotate(25deg)
+  }
+
+  25% {
+    transform: rotate(-25deg)
+  }
+
+  50% {
+    transform: rotate(25deg)
+  }
+
+  75% {
+    transform: rotate(-25deg)
+  }
+
+  100% {
+    transform: rotate(25deg)
+  }
 }
