@@ -138,7 +138,8 @@ body {
   width: 400px;
   display: flex;
   flex-direction: column;
-  color: palevioletred;
+  color: rgba(25, 127, 219) ;
+  border: solid rgb(25, 127, 219) 4px;
   align-items: center;
   border-radius: 4px;
 }

@@ -129,7 +129,7 @@ body {
 
 .card {
   width: 30%;
-  background-color: transparent;
+  background-color: white;
   backdrop-filter: blur(10px);
   border-color: #0c1591 4px;
   border-radius: 10px;
@@ -137,16 +137,18 @@ body {
   align-items: center;
   justify-content: space-evenly;
   flex-direction: column;
-  color: palevioletred;
+  color: rgb(28, 25, 219);
   row-gap: 20px;
 }
 
 .card-cadastro {
   height: 80%;
+  border: solid rgb(25, 127, 219) 2px;
 }
 
 .card-login {
   height: 60%;
+  border: solid rgb(25, 127, 219) 2px;
 }
 
 .card h2 {
@@ -197,7 +199,7 @@ body {
   font-weight: 600;
   font-size: 18px;
   color: #fff;
-  background-color: #e6005a;
+  background-color: rgb(25, 127, 219);
   width: 120px;
   height: 30px;
   align-self: center;
